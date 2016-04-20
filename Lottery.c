@@ -17,9 +17,15 @@ void main()
     {
        if (YourLotteryNo == WinLotteryNo[i]) 
        {
+<<<<<<< HEAD
           printf("Congratulations You Won %8.2f baht\n", WinAmount[i]); 
           printf("YES LA");
           won = 2;
+=======
+          printf("Congratulations You Won %8.2f baht\n", WinAmount[i]);
+          printf("NO LA\n"); 
+          won = 1;
+>>>>>>> cf35abf823850c48b4985dc829a84ecae4555faa
        }
     }
     if (!won) 
